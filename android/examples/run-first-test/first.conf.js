@@ -4,7 +4,7 @@ exports.config = {
 
   updateJob: false,
   specs: [
-    './specs/first_test.js'
+    './examples/run-first-test/specs/first_test.js'
   ],
   exclude: [],
 
@@ -14,7 +14,7 @@ exports.config = {
     name: 'first_test',
     device: 'Google Pixel 3',
     os_version: "9.0",
-    app: process.env.BROWSERSTACK_APP_ID || 'bs://<hashed app-id>',
+    app: process.env.BROWSERSTACK_APP_ID || 'bs://33e38ef0612dfbbe1f58329c5b06bfb0ec265729',
     'browserstack.debug': true
   }],
 
