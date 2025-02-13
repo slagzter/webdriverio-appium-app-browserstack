@@ -5,7 +5,7 @@
   "description": "Selenium examples for WebdriverIO and BrowserStack App Automate",
   "scripts": {
     "test": "npm run first && npm run local && npm run parallel",
-    "first": "./node_modules/.bin/wdio examples/run-first-test/first.conf.js",
+    "first": "wdio ./examples/run-first-test/first.conf.js",
     "parallel": "./node_modules/.bin/wdio examples/run-parallel-test/parallel.conf.js",
     "local": "./node_modules/.bin/wdio examples/run-local-test/local.conf.js",
     "multiple": "./node_modules/.bin/wdio examples/run-multiple-test/multiple.conf.js"
