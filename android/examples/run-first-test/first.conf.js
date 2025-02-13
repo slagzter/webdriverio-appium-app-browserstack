@@ -1,16 +1,16 @@
 exports.config = {
-  user: process.env.BROWSERSTACK_USERNAME || 'BROWSERSTACK_USERNAME',
-  key: process.env.BROWSERSTACK_ACCESS_KEY || 'BROWSERSTACK_ACCESS_KEY',
+  user: process.env.BROWSERSTACK_USERNAME || 'albertostevanato_hQ5VKX',
+  key: process.env.BROWSERSTACK_ACCESS_KEY || 'ozmDzbzx7qtGmKaFRQ2x',
 
   updateJob: false,
   specs: [
-    './examples/run-first-test/specs/first_test.js'
+    './specs/first_test.js'
   ],
   exclude: [],
 
   capabilities: [{
-    project: "First Webdriverio Android Project",
-    build: 'Webdriverio Android',
+    project: "Browserstack Unipol Lab",
+    build: 'WDIO - Wikipedia Test',
     name: 'first_test',
     device: 'Google Pixel 3',
     os_version: "9.0",
